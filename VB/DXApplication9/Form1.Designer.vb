@@ -343,26 +343,26 @@ Namespace DXApplication9
             Me.ribbonImageCollectionLarge = New DevExpress.Utils.ImageCollection(Me.components)
             Me.ribbonStatusBar = New DevExpress.XtraBars.Ribbon.RibbonStatusBar()
             Me.richEditBarController1 = New DevExpress.XtraRichEdit.UI.RichEditBarController()
-            DirectCast(Me.popupControlContainer2, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType(Me.popupControlContainer2, System.ComponentModel.ISupportInitialize).BeginInit()
             Me.popupControlContainer2.SuspendLayout()
-            DirectCast(Me.buttonEdit.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(Me.popupControlContainer1, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType(Me.buttonEdit.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType(Me.popupControlContainer1, System.ComponentModel.ISupportInitialize).BeginInit()
             Me.popupControlContainer1.SuspendLayout()
-            DirectCast(Me.ribbonControl1, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(Me.repositoryItemFontEdit1, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(Me.repositoryItemRichEditFontSizeEdit1, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(Me.repositoryItemBorderLineStyle1, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(Me.repositoryItemBorderLineWeight1, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(Me.repositoryItemFloatingObjectOutlineWeight1, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(Me.memoEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(Me.ribbonImageCollection, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(Me.ribbonImageCollectionLarge, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(Me.richEditBarController1, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType(Me.ribbonControl1, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType(Me.repositoryItemFontEdit1, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType(Me.repositoryItemRichEditFontSizeEdit1, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType(Me.repositoryItemBorderLineStyle1, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType(Me.repositoryItemBorderLineWeight1, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType(Me.repositoryItemFloatingObjectOutlineWeight1, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType(Me.memoEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType(Me.ribbonImageCollection, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType(Me.ribbonImageCollectionLarge, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType(Me.richEditBarController1, System.ComponentModel.ISupportInitialize).BeginInit()
             Me.SuspendLayout()
             ' 
             ' stylesRibbonPageGroup1
             ' 
-            Me.stylesRibbonPageGroup1.Glyph = (DirectCast(resources.GetObject("stylesRibbonPageGroup1.Glyph"), System.Drawing.Image))
+            Me.stylesRibbonPageGroup1.Glyph = (CType(resources.GetObject("stylesRibbonPageGroup1.Glyph"), System.Drawing.Image))
             Me.stylesRibbonPageGroup1.ItemLinks.Add(Me.galleryChangeStyleItem1)
             Me.stylesRibbonPageGroup1.Name = "stylesRibbonPageGroup1"
             ' 
@@ -2012,7 +2012,7 @@ Namespace DXApplication9
             ' 
             ' tableAlignmentRibbonPageGroup1
             ' 
-            Me.tableAlignmentRibbonPageGroup1.Glyph = (DirectCast(resources.GetObject("tableAlignmentRibbonPageGroup1.Glyph"), System.Drawing.Image))
+            Me.tableAlignmentRibbonPageGroup1.Glyph = (CType(resources.GetObject("tableAlignmentRibbonPageGroup1.Glyph"), System.Drawing.Image))
             Me.tableAlignmentRibbonPageGroup1.ItemLinks.Add(Me.toggleTableCellsTopLeftAlignmentItem1)
             Me.tableAlignmentRibbonPageGroup1.ItemLinks.Add(Me.toggleTableCellsMiddleLeftAlignmentItem1)
             Me.tableAlignmentRibbonPageGroup1.ItemLinks.Add(Me.toggleTableCellsBottomLeftAlignmentItem1)
@@ -2109,7 +2109,7 @@ Namespace DXApplication9
             ' 
             ' textRibbonPageGroup1
             ' 
-            Me.textRibbonPageGroup1.Glyph = (DirectCast(resources.GetObject("textRibbonPageGroup1.Glyph"), System.Drawing.Image))
+            Me.textRibbonPageGroup1.Glyph = (CType(resources.GetObject("textRibbonPageGroup1.Glyph"), System.Drawing.Image))
             Me.textRibbonPageGroup1.ItemLinks.Add(Me.insertTextBoxItem1)
             Me.textRibbonPageGroup1.Name = "textRibbonPageGroup1"
             ' 
@@ -2282,7 +2282,7 @@ Namespace DXApplication9
             ' 
             ' ribbonImageCollection
             ' 
-            Me.ribbonImageCollection.ImageStream = (DirectCast(resources.GetObject("ribbonImageCollection.ImageStream"), DevExpress.Utils.ImageCollectionStreamer))
+            Me.ribbonImageCollection.ImageStream = (CType(resources.GetObject("ribbonImageCollection.ImageStream"), DevExpress.Utils.ImageCollectionStreamer))
             Me.ribbonImageCollection.Images.SetKeyName(0, "Ribbon_Exit_16x16.png")
             Me.ribbonImageCollection.Images.SetKeyName(1, "Ribbon_Content_16x16.png")
             Me.ribbonImageCollection.Images.SetKeyName(2, "Ribbon_Info_16x16.png")
@@ -2290,7 +2290,7 @@ Namespace DXApplication9
             ' ribbonImageCollectionLarge
             ' 
             Me.ribbonImageCollectionLarge.ImageSize = New System.Drawing.Size(32, 32)
-            Me.ribbonImageCollectionLarge.ImageStream = (DirectCast(resources.GetObject("ribbonImageCollectionLarge.ImageStream"), DevExpress.Utils.ImageCollectionStreamer))
+            Me.ribbonImageCollectionLarge.ImageStream = (CType(resources.GetObject("ribbonImageCollectionLarge.ImageStream"), DevExpress.Utils.ImageCollectionStreamer))
             Me.ribbonImageCollectionLarge.Images.SetKeyName(0, "Ribbon_Exit_32x32.png")
             Me.ribbonImageCollectionLarge.Images.SetKeyName(1, "Ribbon_Content_32x32.png")
             Me.ribbonImageCollectionLarge.Images.SetKeyName(2, "Ribbon_Info_32x32.png")
@@ -2554,22 +2554,22 @@ Namespace DXApplication9
             Me.Controls.Add(Me.memoEdit1)
             Me.Name = "Form1"
             Me.Text = "Form1"
-            DirectCast(Me.popupControlContainer2, System.ComponentModel.ISupportInitialize).EndInit()
+            CType(Me.popupControlContainer2, System.ComponentModel.ISupportInitialize).EndInit()
             Me.popupControlContainer2.ResumeLayout(False)
-            DirectCast(Me.buttonEdit.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(Me.popupControlContainer1, System.ComponentModel.ISupportInitialize).EndInit()
+            CType(Me.buttonEdit.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+            CType(Me.popupControlContainer1, System.ComponentModel.ISupportInitialize).EndInit()
             Me.popupControlContainer1.ResumeLayout(False)
             Me.popupControlContainer1.PerformLayout()
-            DirectCast(Me.ribbonControl1, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(Me.repositoryItemFontEdit1, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(Me.repositoryItemRichEditFontSizeEdit1, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(Me.repositoryItemBorderLineStyle1, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(Me.repositoryItemBorderLineWeight1, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(Me.repositoryItemFloatingObjectOutlineWeight1, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(Me.memoEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(Me.ribbonImageCollection, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(Me.ribbonImageCollectionLarge, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(Me.richEditBarController1, System.ComponentModel.ISupportInitialize).EndInit()
+            CType(Me.ribbonControl1, System.ComponentModel.ISupportInitialize).EndInit()
+            CType(Me.repositoryItemFontEdit1, System.ComponentModel.ISupportInitialize).EndInit()
+            CType(Me.repositoryItemRichEditFontSizeEdit1, System.ComponentModel.ISupportInitialize).EndInit()
+            CType(Me.repositoryItemBorderLineStyle1, System.ComponentModel.ISupportInitialize).EndInit()
+            CType(Me.repositoryItemBorderLineWeight1, System.ComponentModel.ISupportInitialize).EndInit()
+            CType(Me.repositoryItemFloatingObjectOutlineWeight1, System.ComponentModel.ISupportInitialize).EndInit()
+            CType(Me.memoEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+            CType(Me.ribbonImageCollection, System.ComponentModel.ISupportInitialize).EndInit()
+            CType(Me.ribbonImageCollectionLarge, System.ComponentModel.ISupportInitialize).EndInit()
+            CType(Me.richEditBarController1, System.ComponentModel.ISupportInitialize).EndInit()
             Me.ResumeLayout(False)
             Me.PerformLayout()
 
